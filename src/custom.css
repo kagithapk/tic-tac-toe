@@ -1,0 +1,76 @@
+body {
+	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header_container {
+	margin: 1rem 0;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.board {
+	display: flex;
+	flex-direction: column;
+}
+
+.row-container {
+	display: flex;
+}
+
+.field {
+	width: 5rem;
+	height: 5rem;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.playable {
+	cursor: pointer;
+}
+
+.value {
+	font-size: 1.5rem;
+}
+
+.draw {
+	font-size: 2rem;
+	color: orange;
+}
+
+.success {
+	font-size: 2rem;
+	color: green;
+}
+
+.button {
+	margin: 0.5rem 0;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.start-button {
+	background-color: blueviolet;
+}
+
+.reset-button {
+	background-color: yellow;
+	color: #000;
+}
+
+.start-button:active {
+	transform: translate3d(0, 1px, 2px);
+}
